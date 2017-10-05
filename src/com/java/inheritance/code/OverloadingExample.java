@@ -5,7 +5,7 @@ public class OverloadingExample {
 		  void sum(int a,long b){System.out.println("a method invoked");}  
 		  void sum(long a,int b){System.out.println("b method invoked");}  
 		  void sum(long a,long b){System.out.println("c method invoked");}  
-		  void sum(int a,int b){System.out.println("c method invoked");}  
+		  void sum(int a,int b){System.out.println("d method invoked");}  
 		  
 		  public static void main(String args[]){  
 			  OverloadingExample obj=new OverloadingExample();  

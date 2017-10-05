@@ -4,7 +4,7 @@ public class HarshadNumber {
 
 	public static void main(String[] args) {
 
-		int n = 152;
+		int n = 150;
 		int temp =n;
 		int sum=0;
 		while(n>0)

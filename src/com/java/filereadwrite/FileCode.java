@@ -9,9 +9,7 @@ import java.nio.file.Paths;
 
 public class FileCode {
 
-
 		public static void main(String[] args) throws IOException {
-
 
 			try {
 
@@ -19,6 +17,9 @@ public class FileCode {
 				Path target = Files.write(Paths.get("D:/NewFile11.txt"), sourceByte);
 				String contents = new String(sourceByte);
 				System.out.println(contents);
+				System.out.println(contents.length());
+				String[] s = contents.split(" ");
+				System.out.println(s.length);
 				byte[] targetByte = Files.readAllBytes(Paths.get("D:/NewFile11.txt"));
 				if (new String(targetByte).equals(new String(sourceByte))) {
 					System.out.println("File read and written");

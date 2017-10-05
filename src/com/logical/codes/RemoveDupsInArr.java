@@ -32,5 +32,4 @@ public class RemoveDupsInArr {
             System.out.print(i+" ");
         }
     }
-
 }
