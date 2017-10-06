@@ -22,5 +22,4 @@ public class PairsInArray {
 	public static void main(String[] args) {
 		pairsArray(new int[] {12,5,10,7,13,6,4,1,14}, 17);
 	}
-
 }
