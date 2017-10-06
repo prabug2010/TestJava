@@ -15,7 +15,7 @@ public class MapToList {
 		h1.put("b", 2);
 		h1.put("c", 3);
 		
-		Iterator itr = h1.entrySet().iterator();
+		Iterator<?> itr = h1.entrySet().iterator();
 		while(itr.hasNext())
 		{
 			Map.Entry<String, Integer> e = (Entry<String, Integer>) itr.next();

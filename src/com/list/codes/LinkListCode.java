@@ -24,7 +24,7 @@ public class LinkListCode {
 		System.out.println(l1.pollFirst());
 		System.out.println(l1);
 		
-		ListIterator l = l1.listIterator();
+		ListIterator<String> l = l1.listIterator();
 		while(l.hasPrevious())
 		{
 			System.out.println(l.previous());
