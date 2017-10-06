@@ -14,7 +14,7 @@ public class RemoveDupsInArr {
             if(input[i] == input[j]){
                 i++;
             }else{
-                input[++j] = input[i++];
+                input[++j] = input[i];
             }    
         }
         int[] output = new int[j+1];
