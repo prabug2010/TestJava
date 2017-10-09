@@ -13,6 +13,9 @@ public class Json2Java {
 			File jsonInputFile = new File("D:\\sampleone.txt");
 			emp = mapper.readValue(jsonInputFile, Employee.class);
 			System.out.println(emp);
+			String s = "{\"name\":\"yyy\",\"age\":33,\"place\":\"bengaluru\"}";
+			mapper.readValue(s, Employee.class);
+			System.out.println(s);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
