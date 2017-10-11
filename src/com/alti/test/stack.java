@@ -16,5 +16,7 @@ void ran()
 	    Splender b = new Splender();//upcasting  
 	    b.run();  
 	    b.ran();
+	    
+	    
 	  }  
 	}  

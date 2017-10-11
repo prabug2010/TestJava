@@ -2,6 +2,7 @@ package com.list.codes;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Iterator;
 
 public class ArrayListCode {
@@ -11,6 +12,9 @@ public class ArrayListCode {
 	ArrayList<Integer> a = new ArrayList<Integer>();
 	a.add(1);
 	a.add(3);
+	a.add(4);
+	a.add(3);
+	a.add(1);
 	a.add(1, 2);
 	Integer[] a1 = a.toArray(new Integer[a.size()]);
 	ArrayList<Integer> a2 = new ArrayList<Integer>(Arrays.asList(a1));
@@ -19,6 +23,8 @@ public class ArrayListCode {
 	{
 		System.out.println(i1.next());
 	}
-	}
 	
+	HashSet<Integer> s1 = new HashSet<Integer>(a);
+	System.out.println(s1);
+	}
 }
