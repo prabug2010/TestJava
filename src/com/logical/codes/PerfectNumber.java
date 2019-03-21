@@ -21,7 +21,7 @@ public class PerfectNumber {
      
     public static void main(String a[]){
     	PerfectNumber ipn = new PerfectNumber();
-        System.out.println("Is perfect number: "+ipn.isPerfectNumber(28));
+        System.out.println("Is perfect number: "+ipn.isPerfectNumber(6));
     }
     
 }

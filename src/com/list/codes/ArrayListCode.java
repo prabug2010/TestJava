@@ -16,6 +16,7 @@ public class ArrayListCode {
 	a.add(3);
 	a.add(1);
 	a.add(1, 2);
+	System.out.println("first print"+a.get(2));
 	Integer[] a1 = a.toArray(new Integer[a.size()]);
 	ArrayList<Integer> a2 = new ArrayList<Integer>(Arrays.asList(a1));
 	Iterator<Integer> i1 = a2.iterator();

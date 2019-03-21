@@ -4,7 +4,7 @@ public class FirstRptAndNonRptCharacter {
 	    
 	public static void main(String[] args)  {
 		FirstRptAndNonRptCharacter frc = new FirstRptAndNonRptCharacter();
-		frc.mainLoop();
+	//	frc.mainLoop();
 		frc.mainLoop1();
 	}
     void mainLoop() {

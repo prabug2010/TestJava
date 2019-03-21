@@ -7,6 +7,9 @@ import java.util.Set;
 
 public class SetCode {
 	
+	/**
+	 * @param args
+	 */
 	public static void main(String args[])
 	{
 		HashSet<Integer> s = new HashSet<Integer> ();
@@ -17,6 +20,7 @@ public class SetCode {
 		s.add(2);
 		System.out.println(s);
 		Integer[] n = s.toArray(new Integer[s.size()]);
+		
 	//	System.out.println(s);
 		for(Integer x : n)
 		{

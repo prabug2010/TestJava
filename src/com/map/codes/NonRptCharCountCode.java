@@ -32,12 +32,38 @@ public class NonRptCharCountCode {
 		}
 		
 	}
+	
+	public static Character repeatChar(String str)
+	{
+		HashMap<Character,Integer> hashmap = new HashMap<Character,Integer>();
+		for(int i=0;i<str.length()-1; i++)
+		{
+			Character c = str.charAt(i);
+			if(!hashmap.containsKey(c))
+			{
+				hashmap.put(c,1);
+			}
+			else
+			{
+				hashmap.put(c, hashmap.get(c)+1);
+			}
+		}
+		for (Map.Entry<Character, Integer> e : hashmap.entrySet()) {
+			   if (e.getValue() == 1)
+			    return e.getKey();
+		}
+		return null;
+	}
 	public static void main(String[] args) {
 
 		String str = "geekforgeeks";
 		String st = "encyclopedia";
 		repeatedCharCount(str);
 	//	repeatedCharCount(st);
+		System.out
+	    .println("First non repeated character for String liril is : "
+	      + repeatChar("liril"));
+		
 	}
 
 }

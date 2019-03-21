@@ -15,6 +15,7 @@ public class GetFirstNonRepeatingCharacterMain {
 	 
 	 public static Character getNonRepeatedCharacter(String str) {
 	  Map<Character, Integer> countCharacters = new LinkedHashMap<Character, Integer>();
+	  System.out.println("Map size is : "+countCharacters.size());
 	  for (int i = 0; i < str.length() - 1; i++) {
 	   Character c = str.charAt(i);
 	   if (!countCharacters.containsKey(c)) {

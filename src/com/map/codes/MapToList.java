@@ -20,9 +20,7 @@ public class MapToList {
 		{
 			Map.Entry<String, Integer> e = (Entry<String, Integer>) itr.next();
 			System.out.println(e.getKey()+" : "+e.getValue());
-			
 		}
-		
 		for(Map.Entry<String, Integer> en : h1.entrySet())
 		{
 			System.out.println(en.getKey()+","+en.getValue());
