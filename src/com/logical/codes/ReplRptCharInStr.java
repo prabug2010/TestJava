@@ -6,6 +6,7 @@ public class ReplRptCharInStr {
 
 		String[] s = new String[] {"t","h","i","n","k","i","n","g"};
 		int n = s.length;
+		
 		for(int i=0; i<n; i++)
 		{
 			for(int j=i+1; j<n; j++)

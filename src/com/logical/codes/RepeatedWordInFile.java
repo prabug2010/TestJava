@@ -21,7 +21,7 @@ public class RepeatedWordInFile
         {
             //Creating BufferedReader object
              
-            reader = new BufferedReader(new FileReader("D:\\NewFile11.txt"));
+            reader = new BufferedReader(new FileReader("G:\\NewFile11.txt"));
              
             //Reading the first line into currentLine
              
